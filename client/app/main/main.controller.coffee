@@ -5,6 +5,7 @@ angular.module 'playlisterApp'
   $scope.awesomeThings = []
 
   $http.get('/api/things').success (awesomeThings) ->
+    #console.log(awesomeThings)
     $scope.awesomeThings = awesomeThings
     
 

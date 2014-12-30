@@ -8,8 +8,8 @@ angular.module 'playlisterApp'
     link: '/'
     },
     {
-      title: 'Main'
-      link: '/main'
+      title: 'Index'
+      link: '/index'
       }
   ]
   $scope.isCollapsed = true
